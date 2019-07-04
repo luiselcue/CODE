@@ -1,0 +1,30 @@
+##### GIT
+
+# Make folder CLONE: folder name
+$ mkdir CLONE
+
+# Create git tools CLONE: folder name
+$ git init CLONE
+
+# Clone repository (create new folder)
+$ git clone https://github.com/luiselcue/CODE.git
+
+# Show me remote repository -v for show url
+$ git remote -v
+
+# Upload to repository
+$ git push origin
+
+# Add all changed files
+$ git add .
+
+# Commit all adding files -m Message: process message to save
+$ git commit -m "Message"
+
+# Direct commit adding -a add all -m Message: process message to save
+$ git commit -a -m "Message"
+
+# Show status/log
+$ git status
+$ git log
+
