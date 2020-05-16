@@ -1,0 +1,17 @@
+git init
+
+git config git-ftp.url ftp.qecrea.es/domains/qecrea.es/public_html/wp-content/themes/qecrea
+
+git config git-ftp.user u389037244
+
+git config git-ftp.password d5sbKRx2
+
+git ftp catchup
+
+echo "new content" >> index.txt
+
+git add .
+
+git commit -a -m "Inicia proyecto"
+
+git ftp push
