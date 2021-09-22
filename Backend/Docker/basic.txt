@@ -1,0 +1,32 @@
+##### DOCKER
+
+# To show docker version
+$ docker -v
+
+# To list the running containers (-a all containers)
+$ docker ps
+
+# To delete a stopped container
+$ docker rm <container ID>
+
+# To show images or volumes list
+$ docker image ls
+$ docker volume ls
+
+# To remove image or volume item
+$ docker rmi <image ID>
+$ docker image rm <image name or ID>
+$ docker volume rm <volume name or ID>
+
+# To login to the docker hub repository
+$ docker login
+
+# To only create a container from an image
+$ docker build <path to docker file>
+
+# To create and start a container from an image (-i --interactive -t Allocate a pseudo-TTY -d Run container in background --detach)
+$ docker run
+$ docker run -it -d <image name or ID>
+
+# To pull images from the docker repository(hub.docker.com)
+$ docker pull <docker repository image name>
