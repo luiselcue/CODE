@@ -1,3 +1,4 @@
+# Standard docker-copose setup to build Wordpress site with mysql database
 version: "3.3"
     
 services:
